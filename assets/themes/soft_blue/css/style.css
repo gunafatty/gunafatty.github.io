@@ -1,0 +1,346 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.letter-spacing-font {
+    letter-spacing: 5px;
+}
+
+.font-satisfy {
+    font-family: 'Satisfy', cursive;
+    color: #66C9D3;
+}
+
+.caption-hero {
+    font-size: 14px;
+}
+
+.mt-section2 {
+    margin-top: 10rem;
+}
+
+.icon {
+    max-width: 4vw;
+    height: 5vh;
+}
+
+.position-title {
+    text-align: left;
+}
+
+.img-85 {
+    width: 85%;
+}
+
+.mx-invitationS2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.mx-invitationS1 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.btn-gm {
+    background: #66C9D3;
+    border-radius: 8px;
+}
+
+.btn-send {
+    background: #ffbc9d;
+    box-shadow: 0px 4px 10px 3px rgba(215, 175, 157, 0.5);
+    border-radius: 12px;
+}
+
+.flex-column-mobile {
+    flex-direction: none;
+}
+
+.img-footers {
+    max-width: 100vw;
+    height: 60vh;
+    background-color: #66C9D3;
+}
+
+hr.line {
+    border-top: 2px solid white;
+    width: 70px;
+}
+
+.fontW300 {
+    font-weight: 300;
+}
+
+.fontW400 {
+    font-weight: 400;
+}
+
+.fontW500 {
+    font-weight: 500;
+}
+
+.mt-modal {
+    margin-top: 4rem;
+}
+
+.font13px {
+    font-size: 13px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.px-captionModal {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.mt-modal-2 {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .mt-modal {
+        margin-top: 2rem;
+    }
+
+    .mt-modal-2 {
+        margin-top: 2rem;
+    }
+
+    .px-captionModal {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+
+    .flex-column-mobile {
+        flex-direction: column-reverse !important;
+    }
+
+    .mx-invitationS2 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .mx-invitationS1 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .mt-mobile {
+        margin-top: 1rem;
+    }
+
+    .position-title {
+        text-align: center;
+    }
+
+    .position-caption {
+        text-align: left;
+    }
+
+    .icon {
+        max-width: 7vw;
+        height: 4vh;
+    }
+
+    .mt-section2 {
+        margin-top: 8rem;
+    }
+
+    .img-cover {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .font26 {
+        font-size: 26px;
+    }
+
+    .font18 {
+        font-size: 18px;
+    }
+
+    .font14 {
+        font-size: 14px;
+    }
+
+    .font16 {
+        font-size: 16px;
+    }
+}
+
+.couple-section {
+    text-align: center;
+    padding-bottom: 98px;
+}
+
+@media (max-width: 991px) {
+    .couple-section {
+        padding-bottom: 88px;
+    }
+}
+
+@media (max-width: 767px) {
+    .couple-section {
+        padding-bottom: 78px;
+    }
+}
+
+.couple-section .couple .groom {
+    width: 310px;
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .couple-section .couple .groom {
+        width: 210px;
+    }
+}
+
+@media (max-width: 767px) {
+    .couple-section .couple .groom {
+        width: 290px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.couple-section .couple .bride {
+    width: 310px;
+    float: right;
+}
+
+@media (max-width: 991px) {
+    .couple-section .couple .bride {
+        width: 210px;
+    }
+}
+
+@media (max-width: 767px) {
+    .couple-section .couple .bride {
+        width: 290px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.couple-section .couple .details {
+    width: calc(100% - 620px);
+    float: left;
+    text-align: center;
+    padding: 35px 30px 0;
+}
+
+@media (max-width: 991px) {
+    .couple-section .couple .details {
+        width: calc(100% - 420px);
+        padding: 35px 30px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .couple-section .couple .details {
+        width: 100%;
+        float: none;
+        margin: -10px auto 0;
+        padding: 40px 0 60px;
+    }
+}
+
+.couple-section .bride h4,
+.couple-section .groom h4 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    margin: 30px 0 0.2em;
+}
+
+.couple-section .bride p,
+.couple-section .groom p {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #b7b6b6;
+    margin: 0;
+}
+
+.round-avatar-modal {
+    width: 140px;
+    height: 140px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 100px;
+    background-clip: padding-box;
+    background-size: cover;
+    background-position: center center;
+    border-color:#66C9D3;
+    border-style: solid;
+}
+.round-avatar {
+    width: 170px;
+    height: 170px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 100px;
+    background-clip: padding-box;
+    background-size: cover;
+    background-position: center center;
+}
+
+.couple-section .img-holder {
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+    border-style: solid;
+    border-color: #66C9D3;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.couple-section .img-holder img {
+    width: 100%;
+}
+
+.couple-section .details p {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .couple-section .details p {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+}
+
+.couple-section .details p:nth-child(2) {
+    margin: 1em 0 2em;
+    font-style: italic;
+}
